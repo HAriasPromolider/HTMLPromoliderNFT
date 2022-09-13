@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/icono-promolider.png">
+    <!-- swiperjs cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+    <!-- google font link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>PromoliderNFT</title>
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header bg-white10">
+        <div class="container">
+            <a href="index.html" class="logo bold white"><img class="logo_principal" src="img/logo-promolider.png"></a>
+            <div class="menu">
+                <form action="" class="search-form">
+                    <label for="search-box" class="fas fa-search"></label>
+                    <input type="search" id="search-box" placeholder="Busca items en las colecciones">
+                </form>
+                <a></a>
+                <a href=""></a><a href=""></a><a href="profile.html">Mi perfil</a>
+                <div class="btn bg-green wallet">Seleccionar Billetera</div>
+            </div>
+
+            <div class="fas fa-wallet" id="wallet"></div>
+            <div class="fas fa-bars" id="bar"></div>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section id="home" class="spacetop15 spacebottom10">
+        <div class="container">
+            <div class="row jc-between ai-center col-reverse-s">
+                <div class="col5 col6-md col12-s ta-center-s">
+                    <h1 class="size5 bold spacebottom1 titlegreen">
+                        Conviértete en socio fundador de Promolider y obtén tu NFT 
+                    </h1>
+                    <p class="size25 spacebottom3 halfwhite">"Estamos contentos de ser liderados por ti y por tu gran visión de negocios" 
+                        <br><i>~Giovany Pernia. CEO Promolider</i>
+                    </p>
+
+                    <div class="row col8 col9-md jc-between spacebottom4 jc-evenly-s col12-s">
+                        <a href="#collections" class="btn bg-green size2 white ">Explorar ahora</a>
+                        <a href="#about" class="btn bg-white10 size2 white ">Nuestros socios</a>
+                    </div>
+
+                </div>
+                <div class="col7 col12-s spacebottom3-s">
+                    <img src="img/PromoliderImage" alt="" class="img-responsive float">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- partner section starts 
+    <section class="spacer5 spacer0-xs">
+        <div class="container row jc-between jc-around-md">
+            <img src="img/binance.svg" alt="" class="height6 img-responsive-md">
+            <img src="img/ethereum.svg" alt="" class="height6 img-responsive-md">
+            <img src="img/blockchain.svg" alt="" class="height6 img-responsive-md spacetop1-md">
+        </div>
+    </section> 
+    partner section ends -->
+
+    <!-- about section starts -->
+    <section id="about" class="spacer10">
+        <div class="container">
+            <h1 class="bold size5 ta-center titlegreen">Sobre nosotros</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                Conoce un poco más sobre<br>nosotros.
+            </p>
+            <div class="row ai-center jc-between flexcol-s">
+                <div class="col6 col12-s ta-center-s">
+                    <h3 class="size35 bold titlegreen">¿Que son los NFT de Promolider?</h3>
+                    <p class="size25 spacetop1 spacebottom3 halfwhite">Promolider lanza al mercado sus propios 
+                        NFT con la garantía del 10% de la utilidad
+                        de la empresa, siendo estos de origen único 
+                        no repetible y coleccionable, que brinda la 
+                        oportunidad al poseedor de revalorizar su 
+                        inversión de forma exponencial, convirtiéndose
+                        en uno de los 100 socio fundadores.
+                    </p>
+                </div>
+                <div class="col6 col10-s spacebottom2-s">
+                    <img src="img/nft1.jpeg" class="nft-logo" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- collections section starts -->
+    <section class="collections spacer10" id="collections">
+        <div class="container">
+            <h1 class="bold size5 ta-center titlegreen">Colecciones</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                Visualiza nuestra gran colleción de NFT<br>que tenemos para ti.
+            </p>
+            <div class="row spacebottom3 filter-buttons">
+                <div class="col3 filter col6-xs spacebottom1-xs" data-filter="all">Todo</div>
+                <div class="col3 filter col6-xs spacebottom1-xs" data-filter="art">Arte</div>
+                <div class="col3 filter col6-xs" data-filter="photograpy">Fotografia</div>
+                <div class="col3 filter col6-xs" data-filter="pattern">Patrón</div>
+            </div>
+            <div class="row box-card jc-evenly-md">
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="art">
+                    <img src="img/nft1.jpeg" class="nft-logo" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Johny
+                            </p>
+                            <h5 class="size2 bold">Yellow Red</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">ETHEREUM</p>
+                            <h5 class="size2 bold">0.005ETH</h5>
+                        </div>
+                    </div>
+                    <a href="producto.html" class="bid size2 ta-center">
+                        Adquirir NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="photograpy">
+                    <img src="img/collection2.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Johny
+                            </p>
+                            <h5 class="size2 bold">Yellow Red</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">ETHEREUM</p>
+                            <h5 class="size2 bold">0.005ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Adquirir NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="pattern">
+                    <img src="img/collection3.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Johny
+                            </p>
+                            <h5 class="size2 bold">Yellow Red</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">ETHEREUM</p>
+                            <h5 class="size2 bold">0.005ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Adquirir NFT
+                    </a>
+                </div>
+
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="art">
+                    <img src="img/collection4.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Johny
+                            </p>
+                            <h5 class="size2 bold">Yellow Red</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">ETHEREUM</p>
+                            <h5 class="size2 bold">0.005ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Adquirir NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="photograpy">
+                    <img src="img/collection5.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Johny
+                            </p>
+                            <h5 class="size2 bold">Yellow Red</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">ETHEREUM</p>
+                            <h5 class="size2 bold">0.005ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Adquirir NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="pattern">
+                    <img src="img/collection6.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Angel
+                            </p>
+                            <h5 class="size2 bold">An Angel</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">ETHEREUM</p>
+                            <h5 class="size2 bold">0.005ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Adquirir NFT
+                    </a>
+                </div>
+
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="art">
+                    <img src="img/collection7.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Johny
+                            </p>
+                            <h5 class="size2 bold">Yellow Red</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">ETHEREUM</p>
+                            <h5 class="size2 bold">0.005ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Adquirir NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="photograpy">
+                    <img src="img/collection8.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Johny
+                            </p>
+                            <h5 class="size2 bold">Yellow Red</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">ETHEREUM</p>
+                            <h5 class="size2 bold">0.005ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Adquirir NFT
+                    </a>
+                </div>
+                <div class="col4 card collect bg-white10 col5-md col6-s" data-item="pattern">
+                    <img src="img/collection9.png" class="img-responsive" alt="">
+                    <div class="row jc-between spacetop2">
+                        <div>
+                            <p class="size2 halfwhite">
+                                @Johny
+                            </p>
+                            <h5 class="size2 bold">Yellow Red</h5>
+                        </div>
+                        <div>
+                            <p class="current halfwhite">ETHEREUM</p>
+                            <h5 class="size2 bold">0.005ETH</h5>
+                        </div>
+                    </div>
+                    <a class="bid size2 ta-center">
+                        Adquirir NFT
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- collections section ends -->
+
+    <!-- featured section starts -->
+    <section class="featured spacer10" id="featured">
+        <div class="container">
+            <h1 class="bold size4 ta-center titlegreen">Obras destacadas</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                Top 5 NFT más vistos de la pagina<br>principal.
+            </p>
+            <div class="swiper card-slider row">
+                <div class="swiper-wrapper">
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/collection4.png" class="img-responsive" alt="">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @Johny
+                                    </p>
+                                    <h5 class="size2 bold">Yellow Red</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">ETHEREUM</p>
+                                    <h5 class="size2 bold">0.005ETH</h5>
+                                </div>
+                            </div>
+                            <a class="bid size2 ta-center">
+                                Adquirir NFT
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/collection5.png" class="img-responsive" alt="">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @Johny
+                                    </p>
+                                    <h5 class="size2 bold">Yellow Red</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">ETHEREUM</p>
+                                    <h5 class="size2 bold">0.005ETH</h5>
+                                </div>
+                            </div>
+                            <a class="bid size2 ta-center">
+                                Adquirir NFT
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/collection6.png" class="img-responsive" alt="">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @Angel
+                                    </p>
+                                    <h5 class="size2 bold">An Angel</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">ETHEREUM</p>
+                                    <h5 class="size2 bold">0.005ETH</h5>
+                                </div>
+                            </div>
+                            <a class="bid size2 ta-center">
+                                Adquirir NFT
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/collection1.png" class="img-responsive" alt="">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @Angel
+                                    </p>
+                                    <h5 class="size2 bold">An Angel</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">ETHEREUM</p>
+                                    <h5 class="size2 bold">0.005ETH</h5>
+                                </div>
+                            </div>
+                            <a class="bid size2 ta-center">
+                                Adquirir NFT
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card bg-white10">
+                            <img src="img/collection7.png" class="img-responsive" alt="">
+                            <div class="row jc-between spacetop2">
+                                <div>
+                                    <p class="size2 halfwhite">
+                                        @Angel
+                                    </p>
+                                    <h5 class="size2 bold">An Angel</h5>
+                                </div>
+                                <div>
+                                    <p class="current halfwhite">ETHEREUM</p>
+                                    <h5 class="size2 bold">0.005ETH</h5>
+                                </div>
+                            </div>
+                            <a class="bid size2 ta-center">
+                                Adquirir NFT
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- featured section ends -->
+
+    <!-- creator section starts -->
+    <section class="creator spacer10" id="featured">
+        <div class="container">
+            <h1 class="bold size5 ta-center titlegreen">Nuestros socios</h1>
+            <p class="spacebottom3 halfwhite size2 ta-center">
+                Personas que se convirtieron en nuestros socios<br>al adquirir su NFT.
+            </p>
+            <div class="swiper row creator-slider">
+                <div class="swiper-wrapper">
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card-creator bg-white10 ta-center">
+                            <img src="img/creator1.png" class="img-responsive" alt="">
+                            <img src="img/photo1.png" class="photo" alt="">
+                            <h5 class="spacer1 size2 bold titlegreen">Maria Perez</h5>
+                            <p class="spacebottom2 halfwhite desc">Descripción de la ocupación
+                                <br>de la persona</p>
+                            <button class="follow ta-center bg-green white">+ Seguir</button>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card-creator bg-white10 ta-center">
+                            <img src="img/creator2.png" class="img-responsive" alt="">
+                            <img src="img/photo2.png" class="photo" alt="">
+                            <h5 class="spacer1 size2 bold titlegreen">Alejando Bustamante</h5>
+                            <p class="spacebottom2 halfwhite desc">Descripción de la ocupación
+                                <br>de la persona</p>
+                            <button class="follow ta-center bg-green white">+ Seguir</button>
+                        </div>
+                    </div>
+                    <div class="col4 col5-md col7-s swiper-slide">
+                        <div class="card-creator bg-white10 ta-center">
+                            <img src="img/creator3.png" class="img-responsive" alt="">
+                            <img src="img/photo3.png" class="photo" alt="">
+                            <h5 class="spacer1 size2 bold titlegreen">Diana Ramirez</h5>
+                            <p class="spacebottom2 halfwhite desc">Descripción de la ocupación
+                                <br>de la persona</p>
+                            <button class="follow ta-center bg-green white">+ Seguir</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- creator section ends -->
+
+    <!-- FAQ section starts -->
+    <section class="spacer10" id="faq">
+        <div class="container">
+            <h1 class="bold size5 ta-center titlegreen">Preguntas frecuentes</h1>
+            <p class="spacebottom5 halfwhite size2 ta-center">
+                ¿Quieres preguntar algo?
+            </p>
+            <div class="row jc-between">
+                <div class="box-faq col6 col12-s">
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">¿Que gano como socio fundador de Promolider?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">Todo socio fundador de Promolider  estarás participando en la distribución del 10% de la utilidad anual de la empresa entre  los 100 poseedores de la edición limitada de los NFTS. 
+                        </p>
+                    </div>
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">¿Porque poseer un NTF de Promolider?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">El NFT es un contrato inteligente único, con garantía y respaldo financiero de Promlider.org</p>
+                    </div>
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">¿Qué tengo que hacer para ser socio de Promolider?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">Debes adquirir una membresía de Promolider y comprar un  NFT.</p>
+                    </div>
+                </div>
+                <div class="box-faq col6 col12-s">
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">¿Puedo vender o transferir mi NFT?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">Si, puedes venderlo en el momento que tu desees.</p>
+                    </div>
+                    <div class="box spacebottom5">
+                        <div class="title row jc-between">
+                            <h3 class="size2 halfwhite">¿Por qué en el mercado se han vendido NFTS tan caros?</h3>
+                            <i class="fas fa-angle-down size2 halfwhite"></i>
+                        </div>
+                        <p class="answer size2 spacetop1 ">En efecto hay NFT que se han vendido en millones de Dólares, y esto se debe a que son piezas únicas que adquieren valor en el tiempo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ section ends -->
+
+    <!-- banner section starts 
+    <section class="spacer10" id="banner">
+        <div class="container spacer5 bg-green-2 ta-center">
+            <h1 class="size5 bold spacebottom2 size4-xs">Get ready to collect<br>our NFT</h1>
+            <a class="btn bg-halfwhite size2 started ">Get started</a>
+        </div>
+    </section>
+    banner section ends -->
+
+    <!-- footer section starts -->
+    <footer class="spacer5">
+        <div class="container row jc-between flexcol-s ta-center-s">
+            <div class="row flexcol spacebottom3-s">
+                <a href="#" class="logo bold white"><img class="logo_principal" src="img/logo-promolider.png"></a>
+                <p class="size2 halfwhite spacetop2">El mejor sitio web del mercado NFT en
+                    <br>el mundo y siente tu experiencia en
+                    <br>vender o comprar nuestro trabajo</p>
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <h5 class="bold size2 titlegreen">Sobre nosotros</h5>
+                <a href="#" class="size2 halfwhite spacetop2">Productos</a>
+                <a href="#" class="size2 halfwhite spacetop2">Terminos y condiciones</a>
+                <a href="#" class="size2 halfwhite spacetop2">Preguntas frecuentes</a>
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <h5 class="bold size2 titlegreen">Compañia</h5>
+                <a href="#" class="size2 halfwhite spacetop2">Nuestro equipo</a>
+                <a href="#" class="size2 halfwhite spacetop2">Asociate con nosotros</a>
+                <a href="#" class="size2 halfwhite spacetop2">Politica y privacidad</a>
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <h5 class="bold size2 titlegreen">Contacto</h5>
+                <a href="tel:+51 995668600" class="size2 halfwhite spacetop2">+51 995668600</a>
+                <a href="mailto:promoliderorg@gmail.com" target="_blank" class="size2 halfwhite spacetop2">promoliderorg@gmail.com</a>
+                <div class="row jc-between spacetop2 jc-evenly-s">
+                    <a href="https://www.facebook.com/profile.php?id=100063926738412" class="fab fa-facebook size2 halfwhite spacetop2"></a>
+                    <a href="https://www.linkedin.com/company/promol%C3%ADder/mycompany/" class="fab fa-linkedin size2 halfwhite spacetop2"></a>
+                    <a href="https://www.instagram.com/promoliderorg/?igshid=YmMyMTA2M2Y%3D" class="fab fa-instagram size2 halfwhite spacetop2"></a>
+                </div>
+            </div>
+        </div>
+        <p class="size2 halfwhite spacetop10 ta-center">©COPYRIGHT 2022. PROMOLIDER NFT. TODOS LOS DERECHOS RESERVADOS.</p>
+    </footer>
+    <!-- footer section ends -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
