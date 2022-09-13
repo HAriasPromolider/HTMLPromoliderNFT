@@ -45,7 +45,7 @@
 }
 
 .nft-logo {
-  width: 67%;
+  width: 55%;
   display: block;
   margin: 0px auto;
   -o-object-fit: cover;
@@ -87,7 +87,7 @@ html {
   scroll-padding-top: 10rem;
   font-size: 10px;
   color: white;
-  background: linear-gradient(113.49deg, #131b1C -1000.3%, #131b1e 50.12%);
+  background: linear-gradient(113.49deg, #131B1C -1000.3%, #131B1C 50.12%);
   font-family: "Poppins", sans-serif;
 }
 
@@ -753,8 +753,16 @@ h5 {
   font-size: 4rem;
 }
 
+.size45 {
+  font-size: 4.5rem;
+}
+
 .size5 {
   font-size: 5rem;
+}
+
+.size55 {
+  font-size: 5.5rem;
 }
 
 .size6 {
@@ -3515,7 +3523,7 @@ h5 {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1rem 0;
-  background: linear-gradient(214.02deg, #131b1e 6.04%, #1ae600 92.95%);
+  background: linear-gradient(214.02deg, #131b1C 6.04%, #1ae600 92.95%);
   border-radius: 10px;
   margin-top: 2.5rem;
 }
@@ -3804,17 +3812,17 @@ header .container .menu a:hover {
 }
 
 .box.active .title {
-  border-color: white;
+  border-color: #1ae600;
 }
 
 .box.active .title h3 {
-  color: white;
+  color: #1ae600;
 }
 
 .box.active .title i {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
-  color: white;
+  color: #1ae600;
 }
 
 .box.active .answer {
