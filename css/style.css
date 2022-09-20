@@ -1,12 +1,10 @@
 .bg-image {
-  background-image: url(/img/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-image2 {
-  background-image: url(/img/background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3784,7 +3782,7 @@ header .container .menu a:hover {
 }
 
 .card-creator img.photo {
-  width: 99px;
+  width: 100px;
   margin-top: -5.3rem;
 }
 
